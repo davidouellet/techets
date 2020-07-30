@@ -24,7 +24,7 @@ function Communication() {
 }
 
 //this is a test new test test
-//new test
+//new test test
 
 function Test(){
     console.log("Test");
