@@ -1,8 +1,7 @@
 <?php
 	require_once("action/DAO/Connection.php");
 
-	class DAO {
-    
+	class DAO {    
 
         // get file Attente Content
 		public static function getFileAttenteContent(){
@@ -23,7 +22,6 @@
 		}
 
 }
-
 
 		// // creer membre  equipe
 		// public static function newMember($name,$surname,$imageFilePath,$presentation){

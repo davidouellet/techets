@@ -2,17 +2,10 @@ let dbRows;
 
 window.onload = () =>{
 
-    
-
     document.getElementById("btn-clickMe").onclick = () =>{
 
-
         getContent("getFileAttenteContent");
-        
     }
-
-
-
 }
 
 const getContent = (actionType) =>{
