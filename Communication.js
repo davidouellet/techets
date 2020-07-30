@@ -23,7 +23,7 @@ function Communication() {
         });
 }
 
-//this is a test
+//this is a test new test
 
 function Test(){
     console.log("Test");
