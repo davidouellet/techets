@@ -23,6 +23,8 @@ function Communication() {
         });
 }
 
+//this is a test
+
 function Test(){
     console.log("Test");
 }
