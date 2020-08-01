@@ -11,6 +11,7 @@ window.onload = () =>{
 
 const getContent = (actionType) =>{
 
+    console.log('test');
     $.ajax({
 		url : "DbAction.php",
         type : "POST",			
