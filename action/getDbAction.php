@@ -13,7 +13,11 @@
 		protected function executeAction() {
 
 			if($_POST["actionType"] == "getFileAttenteContent"){
-            $this->result = DAO::getFileAttenteContent();
+            	$this->result = DAO::getFileAttenteContent();
+			}
+			
+			if($_POST["actionType"] == "AddNewUser"){
+				$this->result = DAO::AddNewUser();
 			}
 		}
 	}

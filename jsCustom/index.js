@@ -3,13 +3,15 @@ let dbRows;
 window.onload = () =>{
 
     document.getElementById("btn-clickMe").onclick = () =>{
-
+        console.log('test onclick');
         getContent("getFileAttenteContent");
+        //dgetContent("AddNewUser");
     }
 }
 
 const getContent = (actionType) =>{
 
+    console.log('test');
     $.ajax({
 		url : "DbAction.php",
         type : "POST",			
