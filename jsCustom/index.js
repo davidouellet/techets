@@ -3,7 +3,7 @@ let dbRows;
 window.onload = () =>{
 
     document.getElementById("btn-clickMe").onclick = () =>{
-
+        console.log('test onclick');
         getContent("getFileAttenteContent");
         //dgetContent("AddNewUser");
     }
