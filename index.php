@@ -49,15 +49,15 @@
     <header class="site-navbar mt-3" id="top">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">TechÉts</a></div>
+          <div class="site-logo col-6"><a href="index.php">TechÉts</a></div>
 
 
           
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-lg-block">
-              <li><a href="index.html" class="nav-link active">Home</a></li>
-              <li><a href="contact.html">Réserver</a></li>
+              <li><a href="index.php" class="nav-link active">Home</a></li>
+              <li><a href="contact.php">Réserver</a></li>
             </ul>
           </nav>
           
@@ -78,7 +78,7 @@
             <div class="mx-auto w-75">
               <h3 style="color:white;">Réservez un micro-onde de la cafétéria en appuyant sur le bouton</h3>
             </div>
-            <p class="mt-5"><a href="contact.html" class="btn btn-outline-white btn-md ">Réserver</a></p>
+            <p class="mt-5"><a href="contact.php" class="btn btn-outline-white btn-md ">Réserver</a></p>
             <button type="button" id="btn-clickMe">Click me!</button>
           </div>
         </div>
