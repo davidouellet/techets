@@ -21,6 +21,22 @@
 			return $tab;
 		}
 
+		public static function AddNewUser(){
+
+			date_default_timezone_set('America/Toronto');
+
+			$UserID = rand(0,10000);
+			$ATIME = time('H:i:s');
+
+			echo $ATIME;
+
+			$connection = Connection::getConnection();
+			$statement = $connection->prepare("INSERT INTO fileAttente (UserID, ATIME) VALUES (?, ?)");
+			$statement = bindParam(1, $UserID);
+			$statement = bindParam(2, $ATIME);
+			$statement->execute();
+		}
+
 }
 
 		// // creer membre  equipe

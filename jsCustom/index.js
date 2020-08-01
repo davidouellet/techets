@@ -5,6 +5,7 @@ window.onload = () =>{
     document.getElementById("btn-clickMe").onclick = () =>{
 
         getContent("getFileAttenteContent");
+        getContent("AddNewUser");
     }
 }
 
