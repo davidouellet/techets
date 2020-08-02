@@ -43,8 +43,8 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-lg-block">
-              <li><a href="index.html" class="nav-link">Home</a></li>
-              <li><a href="contact.html" class="active">Réserver</a></li>
+              <li><a href="index.php" class="nav-link">Home</a></li>
+              <li><a href="contact.php" class="active">Réserver</a></li>
             </ul>
           </nav>
 

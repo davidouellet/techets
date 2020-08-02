@@ -12,6 +12,8 @@
 
 		protected function executeAction() {
 
+			console.log("test getdbaction");
+
 			if($_POST["actionType"] == "getFileAttenteContent"){
             	$this->result = DAO::getFileAttenteContent();
 			}

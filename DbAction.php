@@ -5,3 +5,5 @@
 	$action->execute();
 
 	echo json_encode($action->result);
+
+	console.log("test dbaction");
