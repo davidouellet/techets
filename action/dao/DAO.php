@@ -37,7 +37,7 @@
 			$statement->execute();
 		}
 
-}
+	}
 
 		// // creer membre  equipe
 		// public static function newMember($name,$surname,$imageFilePath,$presentation){
