@@ -79,7 +79,7 @@
               <h3 style="color:white;">Réservez un micro-onde de la cafétéria en appuyant sur le bouton</h3>
             </div>
             <p class="mt-5"><a href="contact.php" class="btn btn-outline-white btn-md " id="btn-clickMe">Réserver</a></p>
-            <button type="button" id="btn-clickMe">Click me!</button>
+            <!-- <button type="button" id="btn-clickMe">Click me!</button>-->
           </div>
         </div>
       </div>
